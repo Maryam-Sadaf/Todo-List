@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4e085f;
+}
+
+.container {
+    width: 540px;
+    height: fit-content;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 100px auto 20px;
+    padding: 40px 30px 40px;
+    border-radius: 10px;
+}
+
+.headingf {
+    margin-bottom: 30px;
+}
+
+#taskInput {
+    width: 410px;
+    padding: 9px;
+    border: 2px solid purple;
+    outline: none;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#btnn {
+    width: 60px;
+    height: 41px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 1px 3px 3px rgb(233, 135, 226);
+}
+
+#btnn:active {
+    box-shadow: 0 0 0;
+}
+
+.tasks {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.tasks li {
+    display: flex; /* Make li a flex container */
+    align-items: center;
+    justify-content: space-between;
+    width: 410px;
+    padding: 9px;
+    border: 2px solid purple;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.deleteButton {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 5px; /* Add margin between li and delete button */
+}
